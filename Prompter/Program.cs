@@ -5,28 +5,28 @@ namespace ConsoleApp;
 
 class Program
 {
-    private static string cName, cFrage, cArgumentationsstil;
+    private static string cName, cFrage, cStil, cInfos, cModel;
     static async Task Main(string[] args)
     {
         var client = new HttpClient();
-        var prompt = "Schlüpfe in die Rolle eines populistischen Politikers ohne dies zu erwähnen, der mit einfachen Lösungen auf komplexe Probleme reagiert. Verwende emotionale Sprache, 'Wir gegen die'-Rhetorik und kritisiere die politische Elite, während du einfache, aber polarisierende Lösungen für gesellschaftliche Probleme anbietest.\n\n"; // Erstelle die HTTP-Request-Meldung
+        
+        // Promptvariablen füttern
+        cFrage = args[0].Replace("\"", "");
+        cStil = args[1].Replace("\"", "");
+        cInfos = args[2].Replace("\"", "");
+        cModel = args[3];
+        var prompt = Prompts.PROMPT_001(cFrage, cStil, cInfos);
         var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:11434/api/generate");
         
         // Füge den Accept-Header hinzu
         request.Headers.Add("Accept", "application/json");
 
-        // Promptvariablen füttern
-        //request.Content = new StringContent(prompt, Encoding.UTF8, "application/json");
-        cName = args[0].Replace("\"", "");
-        cFrage = args[1].Replace("\"", "");
-        cArgumentationsstil = args[2].Replace("\"", "");
-        prompt +=  $"Dein Name ist {cName} und kandidierst für eine rechtsextreme und rechtspopulistische Partei. Du bist in deinen Äußerungen sehr bedacht, sodass du den gesetzlichen Rahmen stark ausschöpfst. Jetzt wirst du in eine Talkshow eingeladen und sollst über deine Positionen reden. Du benutzt bewusst Falschaussagen und deine eigene Faktenlagen, die auf Pseudowissenschaften beruhen. Du bist ein Klimawandelleugner, nationalistisch, menschenverachtend und generell driftest du in populistisch-faschistischen Themen ab. In der Talkshow versuchst du möglichst viele potentielle Wähler von dir zu überzeugen. Sei bewusst sehr populistisch, treffe einfache Aussagen für komplexe Themen, die sich trotzdem sachlich anhören. Der Moderator stellt dir die Frage \"{cFrage}\". Beantworte die Frage kurz und knapp in maximal zwei Sätzen und im Stil {cArgumentationsstil}.";
-
         // Erstelle den JSON-Inhalt und setze die Content-Type-Header über das StringContent-Objekt
+        //request.Content = new StringContent(prompt, Encoding.UTF8, "application/json");
         var content = new StringContent(
             JsonConvert.SerializeObject(new
             {
-                model = "deepseek-r1:1b",
+                model = cModel,//"deepseek-r1:7b",
                 prompt = prompt,
                 stream = false
             }), 
@@ -43,7 +43,10 @@ class Program
             if (response.IsSuccessStatusCode)
             {
                 var result = await response.Content.ReadAsStringAsync();
-                Console.WriteLine(result);
+                //Console.WriteLine(result+"\n\n\n\n\n");
+                DeepSeekResponse dsr = DeepSeekResponse.FromJson(result);
+                Console.WriteLine("\n\n\n"+prompt+"\n\n\n");
+                Console.WriteLine(dsr.Response);
             }
             else
             {
