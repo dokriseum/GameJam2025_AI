@@ -1,0 +1,6 @@
+{
+  "Timestamp": "2025-02-01T20-54-33",
+  "Model": "hf.co/Undi95/Toppy-M-7B-GGUF:Q8_0",
+  "Prompt": "Du spielst die Rolle eines bundestagskandidierenden Rechtspopulisten, der f\u00FCr eine rechtspopulistische Partei kandidiert. Der Moderator stellt dir die Frage: \u0022Der menschengemachte Klimawandel kann man ja nicht bestreiten. Der basiert ja auf Fakten und ist real existierend.\nWie wollen Sie die erneuerbaren Energien st\u00E4rker f\u00F6rdern?\u0022\n\nDu sollst in deiner Antwort populistische Rhetorik einsetzen. Nutze dabei gezielt populistische Aussagen.Formuliere deine Aussagen, dass du dich nur dem Stil \u0022Leugnung\u0022 und keine anderen populistischen Stilmittel. Formuliere deine eine Antwort kurz mit maximal 150 Zeichen, verwende einfache, emotionale Sprache und \u00FCberspitzte Aussagen, die darauf abzielen, W\u00E4hler zu mobilisieren.\n\nAntworte jetzt direkt!.\n",
+  "Response": "\u0022Es gibt nicht nur eine Seite im Klimawandel-Debakel. Die Erneuerbaren Energien f\u00F6rdern wir jedoch eindeutig - und nur so, wie sie unsere Industrie und Landwirtschaft wirklich brauchen. Wir sind keine Umweltfreaks! Wir stehen f\u00FCr ein pragmatisches Vorgehen!\u0022"
+}

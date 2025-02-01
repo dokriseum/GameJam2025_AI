@@ -12,7 +12,7 @@ public class APIController
 
     public async Task<DeepSeekResponse?> FetchResponse(string model, string prompt)
     {
-        var request = new HttpRequestMessage(HttpMethod.Post, "http://localhost:11434/api/generate");
+        var request = new HttpRequestMessage(HttpMethod.Post, "http://192.168.0.180:11434/api/generate");
         request.Headers.Add("Accept", "application/json");
 
         var content = new StringContent(JsonConvert.SerializeObject(new
