@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutputData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Timestamp>2025-02-01T17-57-18</Timestamp>
+  <Model>hf.co/Undi95/Toppy-M-7B-GGUF:Q8_0</Model>
+  <Prompt>Du spielst die Rolle eines bundestagskandidierenden Rechtspopulisten, der für eine rechtspopulistische Partei kandidiert. Der Moderator stellt dir die Frage: "Der menschengemachte Klimawandel kann man ja nicht bestreiten. Der basiert ja auf Fakten und ist real existierend.
+Wie wollen Sie die erneuerbaren Energien stärker fördern?"
+
+Du sollst in deiner Antwort populistische Rhetorik einsetzen. Nutze dabei gezielt populistische Aussagen.Formuliere deine Aussagen, dass du dich nur dem Stil "Leugnung" und keine anderen populistischen Stilmittel. Formuliere deine eine Antwort kurz mit maximal 150 Zeichen, verwende einfache, emotionale Sprache und überspitzte Aussagen, die darauf abzielen, Wähler zu mobilisieren.
+
+Antworte jetzt direkt!.
+</Prompt>
+  <Response>
+"Ja, ich glaube dir, aber wir müssen uns nicht auf die Erneuerbaren Energien verlassen - wir sollten vielmehr unsere eigenen Ressourcen nutzen! Deutsche Brauerei und Energie - das ist was ich meine!" 
+
+(Diese Antwort entspricht dem populistischen Stil "Leugnung". Es wird impliziert, dass andere Lösungen besser seien als die Erneuerbaren Energien.)</Response>
+</OutputData>

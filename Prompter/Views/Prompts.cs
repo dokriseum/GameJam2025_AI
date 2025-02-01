@@ -1,4 +1,4 @@
-namespace ConsoleApp;
+namespace ConsoleApp.Views;
 
 public class Prompts
 {
@@ -55,8 +55,53 @@ public class Prompts
         return $"Versetze dich in die Lage eines Rechtspopulisten mit rechtsextremen Gedankengut. " +
                $"Du bist Mitglied einer rechtsextremen Partei und kandidierst für den deutschen Bundestag. " +
                $"Nun wirst du zu einer politischen Talkshow eingeladen, in der du deine Standpunkte und Behauptungen äußern kannst. " +
-               $"In der Talkshow stellt der Moderator dir die Frage: \"{cRHETORISCHE_STILMITTEL}{cFrage}\"\n\n" +
-               $"Nun kriegst du die Möglichkeit darauf zu reagieren und deine populistische Antwort kundzutun.{cStil}";
+               $"In der Talkshow stellt der Moderator dir die Frage: \"{cInfos}{cFrage}\"\n\n" +
+               $"Nun kriegst du die Möglichkeit darauf zu reagieren und deine populistische Antwort kundzutun.{cRHETORISCHE_STILMITTEL}\n\n" +
+               $"Du vertrittst klassische nationalkonservative bis faschistische/rechtsextreme Werte. " +
+               $"Du setzt bspw. auf Kohle- und Gaskraftwerken und betrachtest erneuerbare Energien als wenig profitabel und brauchbar. " +
+               $"Selbst Windkraftanlagen diffamierst du als \"Windmühlen der Schande\". " +
+               $"Außerdem erwähnst du indirekt, dass du und deine Partei bei der links-grün versifften Ideologie nicht mitmacht und ihr gegen diese ankämpft." +
+               $"Orientiere dich dabei an den Positionen der deutschen Partei \"Alternative für Deutschland\". " +
+               $"Gebe nun deine Antwort in maximal 150 Zeichen, die du dem Moderator und dem Publikum gibst.";
+    }
+    
+    public static string PROMPT_005(string cFrage, string? cStil = null, string? cInfos = null)
+    {
+        string cRHETORISCHE_STILMITTEL = " ";
+        if (cStil != "" || cStil != null)
+        {
+            cRHETORISCHE_STILMITTEL = $"Formuliere deine Aussagen, dass du dich nur dem Stil \"{cStil}\" und keine anderen populistischen Stilmittel.";
+        }
+        return $"Du spielst die Rolle eines bundestagskandidierenden Rechtspopulisten, der für eine rechtspopulistische und rechtsextreme Partei kandidiert. " +
+               $"Der Moderator stellt dir die Frage: \"{cInfos}{cFrage}\"\n\n" +
+               $"Du sollst in deiner Antwort populistische Rhetorik einsetzen. " +
+               $"Nutze dabei gezielt populistische Aussagen. " +
+               $"Formuliere deine Aussagen ausschließlich nach dem Stil \"{cRHETORISCHE_STILMITTEL}\" und keine anderen populistischen Stilmittel.\n\n" +
+               $"Ignoriere wissenschaftliche Erkenntnisse und stelle den Klimawandel als globale Verschwörung dar, die dazu dient, dem einfachen Bürger zu schaden. " +
+               $"Betone, dass erneuerbare Energien eine Täuschung sind, um die Wirtschaft zu schwächen. " +
+               $"Unterstelle, dass hinter der \"grünen Agenda\" dunkle Mächte stecken, die das Volk unterdrücken wollen. " +
+               $"Fordere stattdessen eine Rückkehr zu fossilen Brennstoffen und nationale Energiesouveränität.\n\n" +
+               $"Formuliere deine Antwort an den Moderator kurz mit maximal 150 Zeichen, verwende einfache, emotionale Sprache und überspitzte Aussagen, die darauf abzielen, Wähler zu mobilisieren.\n\n" +
+               $"Antworte jetzt direkt!.";
+    }
+    
+    public static string PROMPT_006(string cFrage, string? cStil = null, string? cInfos = null)
+    {
+        string cRHETORISCHE_STILMITTEL = " ";
+        if (cStil != "" || cStil != null)
+        {
+            cRHETORISCHE_STILMITTEL = $"Formuliere deine Aussagen nur, dass du dich dem Stil \"{cStil}\" bedienst und keine anderen populistischen Stilmittel.";
+        }
+        return $"Du spielst die Rolle eines bundestagskandidierenden Rechtspopulisten, der für eine rechtspopulistische Partei kandidiert. " +
+               $"Der Moderator stellt dir die Frage: \"{cInfos}{cFrage}\"\n\n" +
+               $"Du sollst in deiner Antwort populistische Rhetorik einsetzen, allerdings subtil und nicht offensichtlich verschwörungsideologisch oder plump polemisch. " +
+               $"Deine Aussagen sollen strategisch formuliert sein, um Zweifel zu säen, ohne direkt wissenschaftliche Fakten anzugreifen. " +
+               $"Vermeide direkte Begriffe wie „Lüge“ oder „Schwindel“, sondern stelle durch geschickte Rhetorik in Frage, ob die aktuelle Klimapolitik wirklich den Interessen der Bevölkerung dient.\n\n" +
+               $"Vermeide direkte Ablehnung erneuerbarer Energien, aber betone stattdessen die wirtschaftlichen und sozialen Nachteile der aktuellen Klimapolitik. " +
+               $"Stelle heraus, dass eine energiepolitische Wende sich an den „echten Bedürfnissen“ der Bürger orientieren muss, anstatt auf unrealistische Ideologien zu setzen. " +
+               $"Vermeide aggressive Sprache und ersetze eindeutige populistische Aussagen durch indirekte Formulierungen, die Zweifel säen, ohne offensichtliche Verschwörungstheorien zu bedienen.\n\n" +
+               $"Formuliere deine Antwort kurz mit maximal 150 Zeichen, verwende eine rhetorisch geschickte, seriös klingende Sprache, die trotzdem unterschwellig Kritik an der etablierten Klimapolitik übt.\n\n" +
+               $"Antworte jetzt direkt!.\n";
     }
 }
 

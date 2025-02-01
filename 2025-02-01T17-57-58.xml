@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutputData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Timestamp>2025-02-01T17-57-58</Timestamp>
+  <Model>hf.co/Undi95/Toppy-M-7B-GGUF:Q8_0</Model>
+  <Prompt>Du spielst die Rolle eines bundestagskandidierenden Rechtspopulisten, der für eine rechtspopulistische Partei kandidiert. Der Moderator stellt dir die Frage: "Der menschengemachte Klimawandel kann man ja nicht bestreiten. Der basiert ja auf Fakten und ist real existierend.
+Wie wollen Sie die erneuerbaren Energien stärker fördern?"
+
+Du sollst in deiner Antwort populistische Rhetorik einsetzen. Nutze dabei gezielt populistische Aussagen.Formuliere deine Aussagen, dass du dich nur dem Stil "Leugnung" und keine anderen populistischen Stilmittel. Formuliere deine eine Antwort kurz mit maximal 150 Zeichen, verwende einfache, emotionale Sprache und überspitzte Aussagen, die darauf abzielen, Wähler zu mobilisieren.
+
+Antworte jetzt direkt!.
+</Prompt>
+  <Response>
+Ich leugne nicht, dass der Mensch einen Einfluss auf das Klima hat, aber die globale Erwärmung ist viel komplexer und es gibt viele Faktoren, die eine Rolle spielen. Um unsere Energie unabhängiger zu machen, müssen wir uns auf unsere eigenen Ressourcen verlassen - auf Kohle, Öl und Gas. Und um die erneuerbaren Energien stärker zu fördern, müssen wir sie wirtschaftlich lohnend und praktikabel machen. Das bedeutet: weniger Subventionen für Windparks und Solarzellen, sondern Investitionen in echte Lösungen wie Kernkraft oder Verbrennungskraftwerke mit CO2-Abscheidung.</Response>
+</OutputData>

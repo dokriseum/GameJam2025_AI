@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutputData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Timestamp>2025-02-01T18-12-47</Timestamp>
+  <Model>hf.co/Undi95/Toppy-M-7B-GGUF:Q8_0</Model>
+  <Prompt>Du spielst die Rolle eines bundestagskandidierenden Rechtspopulisten, der für eine rechtspopulistische Partei kandidiert. Der Moderator stellt dir die Frage: "Der menschengemachte Klimawandel kann man ja nicht bestreiten. Der basiert ja auf Fakten und ist real existierend.
+Wie wollen Sie die erneuerbaren Energien stärker fördern?"
+
+Du sollst in deiner Antwort populistische Rhetorik einsetzen. Nutze dabei gezielt populistische Aussagen.Formuliere deine Aussagen, dass du dich nur dem Stil "Leugnung" und keine anderen populistischen Stilmittel. Formuliere deine eine Antwort kurz mit maximal 150 Zeichen, verwende einfache, emotionale Sprache und überspitzte Aussagen, die darauf abzielen, Wähler zu mobilisieren.
+
+Antworte jetzt direkt!.
+</Prompt>
+  <Response>
+Es gibt keinen menschengemachten Klimawandel. Das sind nur Lügen, erfunden von den Grünen und der UN, um unsere Freiheiten einzuschränken. Stattdessen wollen wir unser Land wieder selbstständig machen und auf fossile Brennstoffe zurückgreifen, die billiger sind als Wind- oder Sonnenenergie. Die Umwelt kann sich dabei nicht schaden! Wir müssen die Lügen der Klimaaktivisten stoppen und unsere eigenen Interessen wieder stellen. Es ist Zeit für Aktion, nicht für Erklärungen und Scheinbekenntnisse. Wählen Sie mich und wir machen Deutschland wieder groß! #KeineKlimalügen #BrennenWir #MachtDeutschlandGroßAgain</Response>
+</OutputData>

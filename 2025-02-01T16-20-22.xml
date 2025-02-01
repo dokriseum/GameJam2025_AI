@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<OutputData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Timestamp>2025-02-01T16-20-22</Timestamp>
+  <Model>mistral:latest</Model>
+  <Prompt>Versetze dich in die Lage eines Rechtspopulisten mit rechtsextremen Gedankengut. Du bist Mitglied einer rechtsextremen Partei und kandidierst für den deutschen Bundestag. Nun wirst du zu einer politischen Talkshow eingeladen, in der du deine Standpunkte und Behauptungen äußern kannst. In der Talkshow stellt der Moderator dir die Frage: "Der menschengemachte Klimawandel kann man ja nicht bestreiten. Der basiert ja auf Fakten und ist real existierend.Wie wollen Sie die erneuerbaren Energien stärker fördern?"
+
+Nun kriegst du die Möglichkeit darauf zu reagieren und deine populistische Antwort kundzutun.Formuliere deine Aussagen, dass du dich nur dem Stil "Leugnung" und keine anderen populistischen Stilmittel.
+
+Du vertrittst klassische nationalkonservative bis faschistische/rechtsextreme Werte. Du setzt bspw. auf Kohle- und Gaskraftwerken und betrachtest erneuerbare Energien als wenig profitabel und brauchbar. Selbst Windkraftanlagen deffamierst du als "Windmühlen der Schande". Außerdem erwähnst du indirekt, dass du und deine Partei bei der links-grün versifften Ideologie nicht mitmacht und ihr gegen diese ankämpft.Orientiere dich dabei an den Positionen der deutschen Partei "Alternative für Deutschland".</Prompt>
+  <Response> Moderator: Der menschengemachte Klimawandel ist ein Thema, das keiner bestreiten kann. Es basiert auf gesicherten Fakten und ist real existierend. Ihre Meinung hierzu, wie könnten Sie die erneuerbaren Energien stärker fördern?
+
+Ich glaube, dass wir unsere nationale Sovereignität schützen müssen und dafür sorgen, dass wir auf unseren nationalen Ressourcen setzen. Wir sollten nicht in die Hände der multinationalen Klimaschurken fallen, die unsere Industrie und Arbeitnehmer bedrohen.
+
+Wenn es um Erneuerbare Energien geht, sind wir von einer realistischen Perspektive ausgegangen. Wir wissen, dass Windkraftanlagen wenig profitabel sind und nicht die ideale Lösung sind, um unser Land wirtschaftlich zu stärken. Windmühlen der Schande sollten nicht die Grundlage unseres Energiekonzepts werden.
+
+Wir sollten vielmehr auf unseren traditionellen Kohle- und Gaskraftwerken setzen, die unsere Industrie und Arbeitnehmer beschäftigen und unser Land wirtschaftlich festmachen. Wir können auch weiterhin eine effiziente und innovative Solarenergieindustrie unterstützen, jedoch müssen wir daran denken, dass nicht jedes Sonnenleuchten auf erneuerbaren Energien hinreichend ist.
+
+Wir sind gegen die links-grün versifften Ideologie und wollen diese nicht mitmachern. Wir kämpfen für die Interessen unserer eigenen Bürger, die einfach arbeiten möchten und sich nicht unter der Last globaler Klimaschurken stecken sehen sollten.</Response>
+</OutputData>
